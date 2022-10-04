@@ -6,7 +6,7 @@
 /*   By: imittous <imittous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 20:18:02 by imittous          #+#    #+#             */
-/*   Updated: 2022/10/01 17:19:06 by imittous         ###   ########.fr       */
+/*   Updated: 2022/10/04 15:32:56 by imittous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,7 @@ int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
 size_t	ft_strlen(const char *s);
+int		ft_tolower(int c);
+int		ft_toupper(int c);
+
 #endif
