@@ -1,6 +1,3 @@
-# you can see the following websites to understand the makfile better
-# https://www.gnu.org/software/make/manual/make.htmlq
-# https://www.math.colostate.edu/~yzhou/computer/writemakefile.html
 
 NAME = libft.a
 SRCS =				ft_isalpha.c\
@@ -11,6 +8,8 @@ SRCS =				ft_isalpha.c\
 					ft_isprint.c\
 					ft_toupper.c\
 					ft_tolower.c\
+					ft_strchr.c\
+					ft_strrchr.c\
 
 object = $(SRCS:.c=.o)
 CC				= gcc
