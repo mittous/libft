@@ -10,6 +10,7 @@ SRCS =				ft_isalpha.c\
 					ft_tolower.c\
 					ft_strchr.c\
 					ft_strrchr.c\
+					ft_split.c
 
 object = $(SRCS:.c=.o)
 CC				= gcc

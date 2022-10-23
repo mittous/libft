@@ -6,7 +6,7 @@
 /*   By: imittous <imittous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 20:18:02 by imittous          #+#    #+#             */
-/*   Updated: 2022/10/05 08:25:56 by imittous         ###   ########.fr       */
+/*   Updated: 2022/10/23 17:26:06 by imittous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,6 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
+char	**ft_split(char const *s, char c);
 
 #endif
