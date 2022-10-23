@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: imittous <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: imittous <imittous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 19:52:16 by imittous          #+#    #+#             */
-/*   Updated: 2021/11/28 19:52:19 by imittous         ###   ########.fr       */
+/*   Updated: 2022/10/23 17:28:15 by imittous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ static char	**free_word(char **s)
 	free (s);
 	return (NULL);
 }
+
 
 char	**ft_split(char const *s, char c)
 {
